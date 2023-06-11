@@ -1,5 +1,6 @@
 import H1 from "./components/Title"
 import { DefaultButton } from "./components/Buttons"
+import { ExtendedButton } from "./components/Buttons"
 
 function App() {
     return(
@@ -8,6 +9,7 @@ function App() {
             <p>This is testing paragraph for checking styled component</p>
             <DefaultButton>Click Me!</DefaultButton>
             <DefaultButton background="red">Click Me!</DefaultButton>
+            <ExtendedButton background="blue">Test Extended Button</ExtendedButton>
         </div>
     )
 }
