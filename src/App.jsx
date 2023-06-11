@@ -1,14 +1,5 @@
-import styled from "styled-components"
-
-const H1 = styled.h1`color: green; font-size: 4rem; font-weight: 700;`
-
-const DefaultButton = styled.button`
-background-color: #645cfc;
-border: none;
-padding: 10px;
-color: white;
-border-radius: 4px;
-`
+import H1 from "./components/Title"
+import { DefaultButton } from "./components/Buttons"
 
 function App() {
     return(
