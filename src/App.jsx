@@ -10,24 +10,20 @@ function App() {
                 <H1 color="blue">I am using styled component</H1>
                 <p>This is testing paragraph for checking styled component</p>
                 <DefaultButton>Click Me!</DefaultButton>
+                <DefaultButton background="red">Click Me!</DefaultButton>
+                <ExtendedButton background="blue">Test Extended Button</ExtendedButton>
             </Wrapper>
         </div>
     )
 }
 
 const Wrapper = styled.div`
+text-align: center;
 h1 {
-    text-align: center;
     color: violet;
 }
 p {
     font-size: 40px;
-}
-
-button {
-    background-color: pink;
-    padding: 4px 8px;
-    border: none;
 }
 `
 

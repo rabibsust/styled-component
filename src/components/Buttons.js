@@ -10,5 +10,5 @@ border-radius: 4px;
 
 export const ExtendedButton = styled(DefaultButton)`
 display: block;
-width: 100vw;
+width: 100%;
 `
